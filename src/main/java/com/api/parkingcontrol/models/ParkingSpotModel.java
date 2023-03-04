@@ -1,11 +1,9 @@
 package com.api.parkingcontrol.models;
 
 import jakarta.persistence.*;
-import org.hibernate.validator.constraints.UUID;
-import org.springframework.data.annotation.Id;
-
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.UUID;
 
 @Entity
 @Table(name = "TB_PARKING_SPOT")
